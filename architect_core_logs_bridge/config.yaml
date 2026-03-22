@@ -1,6 +1,6 @@
 name: "Architect Core Logs Bridge"
 description: "Expose Home Assistant Core logs for Architect V2.1"
-version: "0.1.0"
+version: "0.1.1"
 slug: "architect_core_logs_bridge"
 init: false
 startup: services
