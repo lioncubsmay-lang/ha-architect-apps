@@ -1,6 +1,6 @@
 name: "Architect Core Logs Bridge"
 description: "Expose Home Assistant Core logs for Architect V2.1"
-version: "0.1.1"
+version: "0.1.2"
 slug: "architect_core_logs_bridge"
 init: false
 startup: services
@@ -14,4 +14,4 @@ ports:
   8099/tcp: 8099
 hassio_api: true
 homeassistant_api: true
-hassio_role: default
+hassio_role: homeassistant
